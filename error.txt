@@ -1,0 +1,74 @@
+
+> gocart-react@0.1.0 build
+> react-scripts build
+
+(node:28640) [DEP0176] DeprecationWarning: fs.F_OK is deprecated, use fs.constants.F_OK instead
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Creating an optimized production build...
+Compiled with warnings.
+
+Failed to parse source map from 'C:\Projects\gocart-fend1\gocart-react\node_modules\@zxing\src\common\HTMLCanvasElementLuminanceSource.ts' file: Error: ENOENT: no such file or directory, open 'C:\Projects\gocart-fend1\gocart-react\node_modules\@zxing\src\common\HTMLCanvasElementLuminanceSource.ts'
+
+Failed to parse source map from 'C:\Projects\gocart-fend1\gocart-react\node_modules\@zxing\src\common\HTMLVisualMediaElement.ts' file: Error: ENOENT: no such file or directory, open 'C:\Projects\gocart-fend1\gocart-react\node_modules\@zxing\src\common\HTMLVisualMediaElement.ts'
+
+Failed to parse source map from 'C:\Projects\gocart-fend1\gocart-react\node_modules\@zxing\src\common\IScannerControls.ts' file: Error: ENOENT: no such file or directory, open 'C:\Projects\gocart-fend1\gocart-react\node_modules\@zxing\src\common\IScannerControls.ts'
+
+Failed to parse source map from 'C:\Projects\gocart-fend1\gocart-react\node_modules\@zxing\src\common\navigator-utils.ts' file: Error: ENOENT: no such file or directory, open 'C:\Projects\gocart-fend1\gocart-react\node_modules\@zxing\src\common\navigator-utils.ts'
+
+Failed to parse source map from 'C:\Projects\gocart-fend1\gocart-react\node_modules\@zxing\src\index.ts' file: Error: ENOENT: no such file or directory, open 'C:\Projects\gocart-fend1\gocart-react\node_modules\@zxing\src\index.ts'
+
+Failed to parse source map from 'C:\Projects\gocart-fend1\gocart-react\node_modules\@zxing\src\readers\BrowserAztecCodeReader.ts' file: Error: ENOENT: no such file or directory, open 'C:\Projects\gocart-fend1\gocart-react\node_modules\@zxing\src\readers\BrowserAztecCodeReader.ts'
+
+Failed to parse source map from 'C:\Projects\gocart-fend1\gocart-react\node_modules\@zxing\src\readers\BrowserCodeReader.ts' file: Error: ENOENT: no such file or directory, open 'C:\Projects\gocart-fend1\gocart-react\node_modules\@zxing\src\readers\BrowserCodeReader.ts'
+
+Failed to parse source map from 'C:\Projects\gocart-fend1\gocart-react\node_modules\@zxing\src\readers\BrowserDatamatrixCodeReader.ts' file: Error: ENOENT: no such file or directory, open 'C:\Projects\gocart-fend1\gocart-react\node_modules\@zxing\src\readers\BrowserDatamatrixCodeReader.ts'
+
+Failed to parse source map from 'C:\Projects\gocart-fend1\gocart-react\node_modules\@zxing\src\readers\BrowserMultiFormatOneDReader.ts' file: Error: ENOENT: no such file or directory, open 'C:\Projects\gocart-fend1\gocart-react\node_modules\@zxing\src\readers\BrowserMultiFormatOneDReader.ts'
+
+Failed to parse source map from 'C:\Projects\gocart-fend1\gocart-react\node_modules\@zxing\src\readers\BrowserMultiFormatReader.ts' file: Error: ENOENT: no such file or directory, open 'C:\Projects\gocart-fend1\gocart-react\node_modules\@zxing\src\readers\BrowserMultiFormatReader.ts'
+
+Failed to parse source map from 'C:\Projects\gocart-fend1\gocart-react\node_modules\@zxing\src\readers\BrowserPDF417Reader.ts' file: Error: ENOENT: no such file or directory, open 'C:\Projects\gocart-fend1\gocart-react\node_modules\@zxing\src\readers\BrowserPDF417Reader.ts'
+
+Failed to parse source map from 'C:\Projects\gocart-fend1\gocart-react\node_modules\@zxing\src\readers\BrowserQRCodeReader.ts' file: Error: ENOENT: no such file or directory, open 'C:\Projects\gocart-fend1\gocart-react\node_modules\@zxing\src\readers\BrowserQRCodeReader.ts'
+
+Failed to parse source map from 'C:\Projects\gocart-fend1\gocart-react\node_modules\@zxing\src\readers\IBrowserCodeReaderOptions.ts' file: Error: ENOENT: no such file or directory, open 'C:\Projects\gocart-fend1\gocart-react\node_modules\@zxing\src\readers\IBrowserCodeReaderOptions.ts'
+
+Failed to parse source map from 'C:\Projects\gocart-fend1\gocart-react\node_modules\@zxing\src\writers\BrowserCodeSvgWriter.ts' file: Error: ENOENT: no such file or directory, open 'C:\Projects\gocart-fend1\gocart-react\node_modules\@zxing\src\writers\BrowserCodeSvgWriter.ts'
+
+Failed to parse source map from 'C:\Projects\gocart-fend1\gocart-react\node_modules\@zxing\src\writers\BrowserQRCodeSvgWriter.ts' file: Error: ENOENT: no such file or directory, open 'C:\Projects\gocart-fend1\gocart-react\node_modules\@zxing\src\writers\BrowserQRCodeSvgWriter.ts'
+
+[eslint] 
+src\AuthContext.js
+  Line 1:54:  'useEffect' is defined but never used  no-unused-vars
+
+src\pages\Dashboard.js
+  Line 5:23:  'DEMO_ANALYTICS' is defined but never used  no-unused-vars
+
+src\pages\Pages.js
+  Line 436:6:   React Hook useEffect has missing dependencies: 'items.length' and 'onLoad'. Either include them or remove the dependency array. If 'onLoad' changes too often, find the parent component that defines it and wrap that definition in useCallback  react-hooks/exhaustive-deps
+  Line 438:56:  React Hook useEffect has a missing dependency: 'onLoad'. Either include it or remove the dependency array. If 'onLoad' changes too often, find the parent component that defines it and wrap that definition in useCallback                       react-hooks/exhaustive-deps
+
+src\pages\Scan.js
+  Line 3:54:  'Input' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+File sizes after gzip:
+
+  233.12 kB  build\static\js\main.cbdb2fb2.js
+  727 B      build\static\css\main.9e6548d5.css
+
+The project was built assuming it is hosted at /.
+You can control this with the homepage field in your package.json.
+
+The build folder is ready to be deployed.
+You may serve it with a static server:
+
+  npm install -g serve
+  serve -s build
+
+Find out more about deployment here:
+
+  https://cra.link/deployment
+
