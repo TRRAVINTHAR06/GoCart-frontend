@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useAuth } from '../AuthContext';
 import { StatCard, Card, Btn, CategoryChart, Badge } from '../components/UI';
-import { fmtCurrency, DEMO_ANALYTICS } from '../api';
+import { fmtCurrency} from '../api';
 import api from '../api';
 
 export default function Dashboard() {
