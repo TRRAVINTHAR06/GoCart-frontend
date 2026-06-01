@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+
+:root {
+  --mint: #00D9A3;
+  --mint-light: #E0FFF7;
+  --mint-dark: #00A87E;
+  --coral: #FF6B6B;
+  --coral-light: #FFF0F0;
+  --amber: #FFB347;
+  --amber-light: #FFF8EE;
+  --sky: #4DA6FF;
+  --sky-light: #EEF5FF;
+  --violet: #9B59F5;
+  --violet-light: #F3EEFF;
+  --bg: #F7F9FC;
+  --surface: #FFFFFF;
+  --surface2: #F0F4F8;
+  --text: #1A2233;
+  --text2: #4A5568;
+  --text3: #8A9AB5;
+  --border: rgba(0,0,0,0.07);
+  --shadow: 0 2px 20px rgba(0,0,0,0.07);
+  --shadow-lg: 0 8px 40px rgba(0,0,0,0.12);
+  --radius: 16px;
+  --radius-sm: 10px;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'Nunito', sans-serif; background: var(--bg); color: var(--text); min-height: 100vh; }
+h1,h2,h3,h4 { font-family: 'Space Grotesk', sans-serif; }
+
+@keyframes slideUp { from{opacity:0;transform:translateY(20px)} to{opacity:1;transform:translateY(0)} }
+@keyframes fadeIn  { from{opacity:0} to{opacity:1} }
+@keyframes haptic  { 0%{transform:scale(1)} 30%{transform:scale(0.94)} 60%{transform:scale(1.04)} 100%{transform:scale(1)} }
+@keyframes scanMove { 0%{top:25%} 50%{top:75%} 100%{top:25%} }
+@keyframes ripple { 0%{transform:scale(0);opacity:0.6} 100%{transform:scale(2.5);opacity:0} }
+
+.slide-up { animation: slideUp 0.35s ease both; }
+.fade-in  { animation: fadeIn 0.3s ease both; }
+
+/* scrollbar */
+::-webkit-scrollbar { width: 5px; height: 5px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: rgba(0,0,0,0.12); border-radius: 10px; }
