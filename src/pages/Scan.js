@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { useCart } from '../CartContext';
-import { Btn, Card, Alert, QtyControl, Modal, Badge, Input } from '../components/UI';
+import { Btn, Card, Alert, QtyControl, Modal, Badge } from '../components/UI';
 import { fmtCurrency, getCatEmoji, getSessionId, DEMO_PRODUCTS } from '../api';
 import api from '../api';
 import BarcodeScanner from "../components/BarcodeScanner";

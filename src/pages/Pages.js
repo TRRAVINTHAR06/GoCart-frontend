@@ -6,8 +6,7 @@ import api, {
   getCatEmoji,
   DEMO_PRODUCTS,
   DEMO_USERS,
-  DEMO_BILLS,
-  DEMO_ANALYTICS
+  DEMO_BILLS
 } from '../api';
 
 import { useCart as useCartHook } from '../CartContext';
